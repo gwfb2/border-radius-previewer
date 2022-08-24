@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+
+    <title>Border Radius Previewer</title>
+</head>
+<body>
+    <h1 id="title">Border Radius Previewer</h1>
+    <div class="main-container">
+        <div id="preview-sqr">Hi! I'm your preview box. Use the fields below to change my border's radius values!</div>
+        <div class="config">
+            <div class="input-item">
+                <h3>Top-Left:</h3>
+                <input type="number" name="number" id="top-left">px
+            </div>
+            <div class="input-item">
+                <h3>Top-Right:</h3>
+                <input type="number" name="number" id="top-right">px
+            </div>
+            <div class="input-item">
+                <h3>Bottom-Left:</h3>
+                <input type="number" name="number" id="bottom-left">px
+            </div>
+            <div class="input-item">
+                <h3>Bottom-Right:</h3>
+                <input type="number" name="number" id="bottom-right">px
+            </div>
+        </div>
+        <div class="result">
+            <h3>Resulting CSS:</h3>
+            <p class="resulting-css"></p>
+            <button>Copy To Clipboard</button>
+        </div>
+    </div>
+</body>
+</html>
